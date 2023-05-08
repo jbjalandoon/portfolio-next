@@ -4,18 +4,20 @@ import NavItem from "./NavItem";
 
 export default function Nav() {
   return (
-    <div className='ml-auto  animate-intro-ascend opacity-0'>
+    <div className='ml-auto'>
       <ul className='flex gap-10'>
-        <NavItem className='text-lime-600 after:bg-lime-600' href='#'>
+        <NavItem className='text-lime-600 after:bg-lime-600' href='/#home'>
           Home
         </NavItem>
-        <NavItem className='text-sky-500 after:bg-sky-500' href='#'>
+        <NavItem className='text-sky-500 after:bg-sky-500' href='/#about'>
           About Me
         </NavItem>
-        <NavItem className='text-red-500 after:bg-red-500' href='#'>
+        <NavItem className='text-red-500 after:bg-red-500' href='/#project'>
           Projects
         </NavItem>
-        <NavItem className='text-yellow-300 after:bg-yellow-300' href='#'>
+        <NavItem
+          className='text-yellow-300 after:bg-yellow-300'
+          href='/#contact'>
           Contact Me
         </NavItem>
       </ul>

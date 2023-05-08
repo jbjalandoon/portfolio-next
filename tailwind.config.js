@@ -10,7 +10,7 @@ module.exports = {
       keyframes: {
         shrink: {
           from: { transform: "scale(1)" },
-          to: { transform: "scale(0)" },
+          to: { transform: "scale(0)", display: "none" },
         },
         twinkle: {
           from: { opacity: "0%" },
@@ -33,13 +33,25 @@ module.exports = {
             opacity: "0%",
           },
         },
+        "to-display-static": {
+          to: { display: "static" },
+        },
+        "header-original": {
+          to: {
+            display: "flex",
+            position: "sticky",
+          },
+        },
       },
       animation: {
         title:
-          "shrink 250ms ease 4000ms forwards, original-title 0ms ease 4300ms forwards, ascend 500ms ease 4500ms forwards, twinkle 500ms ease 4500ms forwards",
-        twinkle: "twinkle 750ms ease 750ms infinite",
+          "shrink 250ms ease 4000ms forwards, original-title 0ms ease 4300ms forwards",
         "intro-ascend":
           "ascend 500ms ease 4500ms forwards, twinkle 500ms ease 4500ms forwards",
+        "intro-ascend-content":
+          "ascend 500ms ease 4500ms forwards, twinkle 500ms ease 4500ms forwards, to-display-static 0ms ease 4300ms forwards",
+        headers: "header-original 0ms 4400ms forwards",
+        twinkle: "twinkle 500ms ease 500ms infinite",
       },
     },
   },

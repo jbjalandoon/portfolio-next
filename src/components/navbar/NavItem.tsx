@@ -13,7 +13,7 @@ export default function NavItem({
   return (
     <li
       className={`font-semibold hover:after:scale-100 relative text-lg after:absolute after:-bottom-2 after:left-0 after:h-1 after:w-full after:scale-0 after:rounded-lg after:transition-all after:duration-700 ${className}`}>
-      <Link href={href}>{children}</Link>
+      <Link href={href} scroll={false}>{children}</Link>
     </li>
   );
 }
