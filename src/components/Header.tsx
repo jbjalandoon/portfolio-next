@@ -35,7 +35,7 @@ export default function Header() {
 
   return (
     <div
-      className={`z-10 left-auto w-full animate-intro-ascend opacity-0 fixed flex-col items-center flex justify-center bg-inherit shadow-2xl transition-all duration-700 xl:shadow-none ${
+      className={`z-10 left-auto w-full animate-intro-ascend opacity-0 fixed flex-col items-center flex justify-center bg-inherit shadow-2xl transition-all duration-700 ${
         hideHeader ? "-top-20" : "top-0"
       }`}>
       <NavBar />
