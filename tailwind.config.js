@@ -30,13 +30,16 @@ module.exports = {
             "justify-content": "start",
             transform: "scale(1)",
             width: "auto",
+            opacity: "0%",
           },
         },
       },
       animation: {
         title:
-          "shrink 250ms ease 4000ms forwards, original-title 0ms ease 4000ms forwards",
+          "shrink 250ms ease 4000ms forwards, original-title 0ms ease 4300ms forwards, ascend 500ms ease 4500ms forwards, twinkle 500ms ease 4500ms forwards",
         twinkle: "twinkle 750ms ease 750ms infinite",
+        "intro-ascend":
+          "ascend 500ms ease 4500ms forwards, twinkle 500ms ease 4500ms forwards",
       },
     },
   },
