@@ -24,6 +24,6 @@ html {
 }
 
 body {
-  @apply flex flex-col items-center scroll-smooth bg-slate-800  text-white;
+  @apply flex flex-col items-center scroll-smooth bg-slate-800  text-slate-300;
   font-family: "Poppins", sans-serif;
 }
