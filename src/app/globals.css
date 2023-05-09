@@ -21,9 +21,11 @@
 html {
   --scroll-behavior: smooth !important;
   scroll-behavior: smooth !important;
+  --scroll-padding-top: 5rem !important;
+  scroll-padding-top: 5rem !important;
 }
 
 body {
-  @apply flex flex-col items-center scroll-smooth bg-slate-800  text-slate-200;
+  @apply flex flex-col items-center scroll-smooth bg-slate-800 text-slate-200;
   font-family: "Poppins", sans-serif;
 }

@@ -2,7 +2,7 @@ import Content from "../Content";
 
 export default function Home() {
   return (
-    <Content id='home'>
+    <Content id='home' title='Welcome to my Portfolio' className="min-h-screen justify-center">
       <div className='flex h-full w-full max-w-4xl tracking-wider'>
         <div className='flex w-full flex-col gap-6'>
           <p className='text-lg font-light'>Hello, my name is</p>
@@ -13,7 +13,9 @@ export default function Home() {
             Philippines Taguig (2023). I specialize in Fullstack Development.
             I'm currently focused in building my own projects.
           </p>
-          <button className="self-start px-7 font-bold transition-all bg-emerald-300 text-slate-950 hover:bg-transparent duration-1000 hover:text-slate-200 py-4 border-emerald-300 border">Resume</button>
+          <button className='self-start border border-emerald-300 bg-emerald-300 px-7 py-4 font-bold text-slate-950 transition-all duration-1000 hover:bg-transparent hover:text-slate-200'>
+            Resume
+          </button>
         </div>
       </div>
     </Content>
