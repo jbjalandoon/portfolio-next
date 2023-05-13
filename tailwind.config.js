@@ -51,6 +51,8 @@ module.exports = {
         "intro-ascend-content":
           "ascend 500ms ease 4500ms forwards, twinkle 500ms ease 4500ms forwards, to-display-static 0ms ease 4300ms forwards",
         headers: "header-original 0ms 4400ms forwards",
+        "intro-modal":
+          "ascend 1000ms ease 0ms forwards, twinkle 1000ms ease 0ms forwards",
         twinkle: "twinkle 500ms ease 500ms infinite",
       },
     },
