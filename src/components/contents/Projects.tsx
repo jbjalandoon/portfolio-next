@@ -4,7 +4,7 @@ import Project from "../Project";
 export default function Projects() {
   return (
     <Content id='project' title='Some of my works' className="min-h-screen justify-start">
-      <div className='grid grid-cols-3 gap-7'>
+      <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-7 mt-5 transition-all'>
         <Project
           id={1}
           title='My Portfolio'
