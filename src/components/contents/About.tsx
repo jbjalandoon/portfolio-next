@@ -13,12 +13,11 @@ export default function About() {
           <div className='flex flex-col gap-5 px-4 pt-4 text-md text-light'>
             <p>
               Hello, My name is Jerome and I enjoy web development. The interest
-              in web development started when I was a graduating student at PUP
-              - Taguig where I created a web application for my capstone
+              in web development started when I was a graduating student at (University) where I created a web application for my capstone
               project.
             </p>
             <p>
-              I'm a consistent academic achiever in my University where I always
+              I'm a consistent academic achiever during my college where I always
               achieve President's Lister every school year. My capstone team is
               also the best capstone in the batch 2021.
             </p>

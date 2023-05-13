@@ -17,23 +17,29 @@ export default function Contact() {
         <ul className='flex w-full flex-col items-start gap-7 text-center font-bold md:items-center md:justify-center'>
           <li className='flex gap-3 text-center text-2xl '>
             <AiTwotoneMail />
-            <span className='sm:text-xl text-base font-light'>
-              jerome.jalandoon@gmail.com
+            <span className='text-base font-light sm:text-xl'>
+              <a href='mailto:email@sample.com' className="underline underline-offset-4 hover:text-emerald-300 transition-all">email@sample.com</a>
+            </span>
+          </li>
+          <li className='flex items-center gap-3 text-2xl'>
+            <AiFillLinkedin />
+            <span className='text-base font-light sm:text-xl'>
+              <a href='www.linkedin.com' className="underline underline-offset-4 hover:text-emerald-300 transition-all" target='_blank'>
+                linkedin.com/in/linkedin/
+              </a>
             </span>
           </li>
           <li className='flex items-center gap-3 text-2xl'>
             <TiLocation />
-            <span className='sm:text-xl text-base font-light'>Taguig City, Philippines</span>
-          </li>
-          <li className='flex items-center gap-3 text-2xl'>
-            <AiFillLinkedin />
-            <span className='sm:text-xl text-base font-light'>
-              linkedin.com/in/jbjalandoon/
+            <span className='text-base font-light sm:text-xl'>
+              Manila City, Philippines
             </span>
           </li>
           <li className='flex items-center gap-3 text-2xl'>
             <AiFillPhone />
-            <span className='sm:text-xl text-base font-light'>+639 673-104-255</span>
+            <span className='text-base font-light sm:text-xl'>
+              +639 123-456-789
+            </span>
           </li>
         </ul>
       </div>
