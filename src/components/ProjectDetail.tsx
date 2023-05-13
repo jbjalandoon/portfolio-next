@@ -11,15 +11,15 @@ export default function ProjectDetail({
   onCloseModal: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }) {
   return createPortal(
-    <div className='fixed z-30 flex h-screen w-full items-center justify-center'>
+    <div className='fixed z-30 flex h-screen w-full items-center justify-center px-5 transition-all lg:px-0'>
       <div className='absolute z-40 h-full w-full bg-gray-700 opacity-40'></div>
-      <div className='relative z-50 grid h-3/4 w-full max-w-5xl animate-intro-modal grid-cols-2 items-center justify-center gap-7 rounded-2xl bg-slate-950 px-14 py-12 opacity-0 shadow-2xl'>
+      <div className='relative z-50 grid h-4/5 w-full max-w-5xl animate-intro-modal grid-cols-1 items-center justify-center gap-7 rounded-2xl bg-slate-950 px-14 py-12 opacity-0 shadow-2xl md:grid-cols-2 lg:h-3/4'>
         <div className='absolute right-5 top-5'>
           <button className='text-3xl' onClick={onCloseModal}>
             <AiOutlineClose />
           </button>
         </div>
-        <div className='flex flex-col gap-5'>
+        <div className='flex flex-col gap-5 transition-all'>
           <h1 className='mb-4 text-3xl font-bold'>My Portfolio</h1>
           <p className='mb-4 text-base font-thin'>
             Incididunt est quis labore tempor. Mollit consectetur nisi excepteur
@@ -41,7 +41,7 @@ export default function ProjectDetail({
             <span>JAVASCRIPT</span>
           </div>
         </div>
-        <div>
+        <div className='absolute left-0 top-0 -z-50 h-full transition-all w-full opacity-10 md:static md:left-auto md:top-auto md:h-auto md:w-auto md:opacity-100'>
           <img
             src='https://picsum.photos/1024/768'
             className='w-full rounded-xl'></img>
