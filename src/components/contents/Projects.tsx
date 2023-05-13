@@ -3,7 +3,7 @@ import Project from "../Project";
 
 export default function Projects() {
   return (
-    <Content id='project' title='Some of my works'>
+    <Content id='project' title='Some of my works' className="min-h-screen justify-start">
       <div className='grid grid-cols-3 gap-7'>
         <Project
           id={1}

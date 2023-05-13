@@ -8,7 +8,7 @@ export default function Contact() {
     <Content
       id='contact'
       title='Contact Me'
-      className='items-center justify-center min-h-screen'>
+      className='items-center min-h-screen'>
       <p className='text-light w-1/2 text-center text-base'>
         I'm currently finding an opprtunities where I can use my skills and make
         an impact. Interesting in working together? Send me a Message.
