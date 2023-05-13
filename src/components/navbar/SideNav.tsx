@@ -11,7 +11,7 @@ export default function SideNav({
 }) {
   return createPortal(
     <div className='flex flex-col md:hidden'>
-      <div className='fixed right-0 top-0 z-50 h-screen w-1/2 bg-blue-950'>
+      <div className='fixed right-0 top-0 z-50 h-screen sm:w-1/2 w-full bg-blue-950'>
         <div className='flex h-20 w-full pr-5'>
           <button
             className='ml-auto text-4xl font-bold text-emerald-300'
