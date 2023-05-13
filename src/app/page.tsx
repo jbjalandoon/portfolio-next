@@ -5,7 +5,7 @@ import Projects from "@/components/contents/Projects";
 
 export default function Page() {
   return (
-    <div className='flex w-full items-center justify-center flex-col'>
+    <div className='flex w-full flex-col items-center justify-center'>
       <Home />
       <About />
       <Projects />

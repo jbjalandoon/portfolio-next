@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Intro from "@/components/Intro";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,10 @@ export default function RootLayout({
     <html lang='en'>
       <body className='scroll-smooth'>
         <Header />
-        <main className='w-full animate-intro-ascend-content opacity-0'>{children}</main>
+        <main className='w-full animate-intro-ascend-content opacity-0'>
+          {children}
+          <Footer />
+        </main>
         <Intro />
       </body>
     </html>
