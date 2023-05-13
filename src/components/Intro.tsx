@@ -25,7 +25,7 @@ export default function Intro() {
         clearTimeout(timeout);
       };
     }
-  }, [currentTitleIndex, currentTitle]);
+  }, [currentTitleIndex, currentTitle, isFirstLoad]);
 
   useEffect(() => {
     setTimeout(() => {

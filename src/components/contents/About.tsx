@@ -17,14 +17,14 @@ export default function About() {
               project.
             </p>
             <p>
-              I'm a consistent academic achiever during my college where I always
-              achieve President's Lister every school year. My capstone team is
+              I&apos;m a consistent academic achiever during my college where I always
+              achieve President&apos;s Lister every school year. My capstone team is
               also the best capstone in the batch 2021.
             </p>
             <p>
-              Currently, I'm working in my personal projects and I'm open to job
+              Currently, I&apos;m working in my personal projects and I&apos;m open to job
               opportunities where I can contribute, grow, and learn. if you have
-              a good opportunities that I can contribute then don't hesitate to
+              a good opportunities that I can contribute then don&apos;t hesitate to
               contact me.
             </p>
           </div>

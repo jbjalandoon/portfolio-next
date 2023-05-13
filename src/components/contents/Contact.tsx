@@ -11,7 +11,7 @@ export default function Contact() {
       className='min-h-screen items-center'>
       <div className='mt-7 grid grid-cols-1 gap-10 text-center transition-all md:mt-0'>
         <p className='text-light flex w-full items-center text-left text-lg md:items-start md:text-center md:text-base'>
-          I'm currently finding an opprtunities where I can use my skills and
+          I&apos;m currently finding an opprtunities where I can use my skills and
           make an impact. Interesting in working together? Send me a Message.
         </p>
         <ul className='flex w-full flex-col items-start gap-7 text-center font-bold md:items-center md:justify-center'>

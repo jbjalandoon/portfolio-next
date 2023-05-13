@@ -55,7 +55,7 @@ export default function Project({
         </button>
         <div className='mt-auto flex gap-4 self-center'>
           {technologies.map((e) => (
-            <span className='text-xs font-extralight'>{e}</span>
+            <span className='text-xs font-extralight' key={e}>{e}</span>
           ))}
         </div>
       </div>

@@ -31,7 +31,7 @@ export default function Header() {
         window.removeEventListener("scroll", controlNavbar);
       };
     }
-  }, [lastScrollY]);
+  }, [lastScrollY, controlNavbar]);
 
   return (
     <div
