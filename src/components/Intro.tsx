@@ -34,7 +34,7 @@ export default function Intro() {
   }, []);
 
   return (
-    <div className='fixed h-screen z-50 left-0 top-0 flex w-full items-center animate-title justify-center text-6xl'>
+    <div className='fixed left-0 top-0 z-50 flex h-screen w-full animate-title items-center justify-center text-6xl'>
       <span>{currentTitle}</span>
       <span className='animate-twinkle' ref={underScore}>
         _

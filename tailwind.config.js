@@ -22,15 +22,7 @@ module.exports = {
         },
         "original-title": {
           to: {
-            position: "static",
-            left: "auto",
-            top: "auto",
-            "font-size": "30px",
-            "font-height": "36px",
-            "justify-content": "start",
-            transform: "scale(1)",
-            width: "auto",
-            opacity: "0%",
+            height: "0",
           },
         },
         "to-display-static": {
